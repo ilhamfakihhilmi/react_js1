@@ -5,7 +5,7 @@
 }
 
 .intro {
-    height: 40%;
+    height: 400px;
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -18,4 +18,21 @@
     text-shadow: 2px 2px black;
     text-align: center;
     letter-spacing: 3px;
+}
+
+.trending {
+    height: auto;
+    background: url(../assets/images/bg/scifi.jpg);
+    background-size: cover;
+}
+
+.movieWrapper {
+
+}
+
+.movieImage {
+    height: 200px;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
 }

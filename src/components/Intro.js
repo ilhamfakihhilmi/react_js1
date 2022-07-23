@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row, Button } from "react-bootstrap"
 
 const Intro = () => {
     return (
@@ -12,6 +12,9 @@ const Intro = () => {
                         </div>
                         <div className='title'>
                             SEKARANG!
+                        </div>
+                        <div className='introButton mt-4 text-center'>
+                            <Button variant='dark'>Daftar Sekarang</Button>
                         </div>
                     </Col>
                 </Row>
