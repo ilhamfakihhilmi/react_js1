@@ -4,10 +4,10 @@ const NavigationBar = () => {
     return (
         <Navbar variant="dark">
             <Container>
-                <Navbar.Brand>Fakih Films</Navbar.Brand>
+                <Navbar.Brand href="/">Fakih Films</Navbar.Brand>
                 <Nav>
-                    <Nav.Link>TRENDING</Nav.Link>
-                    <Nav.Link>SUPERHERO</Nav.Link>
+                    <Nav.Link href="#trending">TRENDING</Nav.Link>
+                    <Nav.Link href="#superhero">SUPERHERO</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
