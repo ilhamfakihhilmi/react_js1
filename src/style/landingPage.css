@@ -3,3 +3,19 @@
     background: url(../assets/images/bg/main.jpg);
     background-size: cover;
 }
+
+.intro {
+    height: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    letter-spacing: 3px;
+}

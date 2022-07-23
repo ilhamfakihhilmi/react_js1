@@ -2,10 +2,13 @@ import { Nav, Container, Navbar } from "react-bootstrap";
 
 const NavigationBar = () => {
     return (
-        <Navbar> 
+        <Navbar>
             <Container>
-                <Nav.Link>TRENDING</Nav.Link>
-                <Nav.Link>SUPERHERO</Nav.Link>
+                <Navbar.Brand>Fakih Films</Navbar.Brand>
+                <Nav>
+                    <Nav.Link>TRENDING</Nav.Link>
+                    <Nav.Link>SUPERHERO</Nav.Link>
+                </Nav>
             </Container>
         </Navbar>
     )
